@@ -3,15 +3,14 @@ import './App.css';
 
 import PersonAdd from './components/PersonAdd';
 import PersonRemove from './components/PersonRemove';
-import PersonList from './components/PersonList.js';
-
-
+import PersonList from './components/PersonList';
+import PersonTitle from './components/PersonTitle';
+import PersonContent from './components/PersonContent';
 function App() {
   return (
-    <div ClassName="App">
-      <PersonAdd/>
-      <PersonList/>
-      <PersonRemove/>
+    <div className='App'>
+      <PersonTitle/>
+      <PersonContent/>
     </div>
   )
   /*
