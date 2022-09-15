@@ -3,6 +3,9 @@ import API from '../api';
 import '../User.css';
 
 const PersonContent = (props) => {
+  const onSubmit = (e) => {
+    alert("on submit");
+  }
 
   return(
     <div 
@@ -100,6 +103,7 @@ const PersonContent = (props) => {
         <div id='submit_button_group'>
           <button 
             id='form_data_submit_button'
+            onClick={onSubmit}
           >
             SUBMIT
           </button>
